@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "ModuleTitle": {
+      "type": "text"
+    },
+    "BeforeImage": {
+      "type": "image"
+    },
+    "AfterImage": {
+      "type": "image"
+    },
+    "Orientation": {
+      "type": "select",
+      "optionLabels": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  }
+}

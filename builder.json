@@ -1,0 +1,45 @@
+{
+  "formfields": [
+    {
+      "fieldname": "ModuleTitle",
+      "title": "Module Title",
+      "fieldtype": "text",
+      "advanced": false
+    },
+    {
+      "fieldname": "BeforeImage",
+      "title": "Before Image",
+      "fieldtype": "image",
+      "imageoptions": {},
+      "advanced": false
+    },
+    {
+      "fieldname": "AfterImage",
+      "title": "After Image",
+      "fieldtype": "image",
+      "imageoptions": {},
+      "advanced": false
+    },
+    {
+      "fieldname": "Orientation",
+      "title": "Orientation",
+      "fieldtype": "select",
+      "fieldoptions": [
+        {
+          "value": "horizontal",
+          "text": "horizontal"
+        },
+        {
+          "value": "vertical",
+          "text": "vertical"
+        }
+      ],
+      "advanced": true,
+      "required": true,
+      "hidden": false,
+      "default": "horizontal",
+      "dependencies": []
+    }
+  ],
+  "formtype": "object"
+}
